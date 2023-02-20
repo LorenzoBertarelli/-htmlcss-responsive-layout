@@ -40,19 +40,19 @@ a {
 }
 
 .logo {
-    margin: 0 10px;
+    margin: 10px 25px 0 25px;
     max-width: 30%;
 }
 
 .line-emote {
     display: flex;
     max-width: 70%;
-    margin: 0 10px;
+    margin: 0 25px;
 }
 
 .list-header {
     display: none;
-    margin: 0 10px;
+    margin: 0 25px;
     font-size: 1rem;
     list-style-type: none;
     justify-content: space-between;
@@ -62,10 +62,57 @@ a {
     margin-right: 1rem;
 }
 
-.bottone {
+.button {
     color: black;
     border: 1px white;
     border-radius: 20px;
     background-color: white;
     padding: 5px;
+}
+
+/* MAIN */
+
+/* PART1 */
+
+.card-large {
+    background-color: rgb(177, 221, 255);
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.titol-main1 {
+    color: rgb(28, 134, 255);
+}
+
+.test-main1 {
+    margin: 20px 0 40px 0;
+    line-height: 1.5rem;
+}
+
+.img-main1{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: -20px;
+    height: 100%;
+    width: 100%;    
+}
+
+.button-appstore {
+    color: white;
+    background-color: rgb(28, 134, 255);
+    padding: 10px 80px;
+}
+
+.card-small {
+    margin-top: 40px;
+    background-color: rgb(177, 221, 255);
+    padding: 20px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.simbol-card {
+    font-size: 6rem;
+    color: rgb(28, 134, 255);
+    margin: 10px 0;
 }

@@ -1,8 +1,36 @@
 /* PHONE */
+@media screen and (max-width: 767px) {
+    .box-main1{
+        margin: 0 auto;
+        width: 90%;
+        border: 1px solid red;
+        margin-top: 40px;
+    }
+}
 
 /* TABLET */
 @media screen and (min-width: 768px) {
     
+    .box-main1 {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .img-main1 {
+        width: 50%;
+    }
+
+    .card-large {
+        width: 65%;
+        margin-top: 40px
+    }
+
+    .card-small {
+        width: 30%;
+    }
 }
 /* DESKTOP */
 
@@ -14,5 +42,24 @@
     
     .list-header {
         display: flex;
+    }
+
+    .card-large {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .img-main1 {
+        width: 80%;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+
+    .card-right {
+        width: 50%;
+    }
+
+    .card-left {
+        width: 50%;
     }
 }
