@@ -399,3 +399,33 @@ h1 {
     font-size: 0.3rem;
     vertical-align: middle;
 }
+
+/* FOOTER */
+
+.back-footer {
+    background-color: rgba(51, 51, 51, 1);
+}
+
+.box-footer {
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+    height: 100%;
+}
+
+.test-footer1 {
+    line-height: 2rem;
+    color: white;
+    padding: 30px 20px;
+}
+
+.test-footer2 {
+    line-height: 2rem;
+    color: white;
+    padding: 30px 20px;
+}
+
+.link-footer {
+    color: rgba(149, 147, 230, 1);
+    text-decoration: underline;
+}
