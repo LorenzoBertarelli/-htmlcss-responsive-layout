@@ -1,4 +1,5 @@
 /* PHONE */
+
 @media screen and (max-width: 767px) {
 
     .box-main1{
@@ -15,16 +16,18 @@
 }
 
 /* TABLET */
+
 @media screen and (min-width: 768px) {
 
     /* PART 1 */
     
     .box-main1 {
         height: 100%;
-        width: 100%;
+        width: 90%;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        margin: 0 auto;
     }
 
     .img-main1 {
@@ -107,6 +110,17 @@
 
     .col-img5 {
         width: 200px ;
+    }
+
+    /* PART 6 */
+
+    .box-main6 {
+        width: 380px;
+    }
+
+    .test-main6 {
+        width: 100%;
+        margin: 40px 0;
     }
 }
 

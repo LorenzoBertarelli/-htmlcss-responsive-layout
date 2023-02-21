@@ -348,3 +348,54 @@ h3 {
     top: -10px;
     right: 0px;
 }
+
+/* PART 6 */
+
+.back-main6 {
+    margin-top: 50px;
+    background-color: rgba(149, 147, 230, 1);
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.box-main6 {
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.mini-title6 {
+    color: lightgray;
+    padding-top: 50px ;
+}
+
+.title-main6 {
+    color: white;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 5rem;
+    color: rgba(253, 193, 95, 1);
+    margin-bottom: -10px;
+}
+
+.test-main6 {
+    margin: 20px 0 40px 0;
+    line-height: 2rem;
+    color: white;
+    padding: 0 20px;
+    margin: 40px 0;
+}
+
+.button-started {
+    background-color: rgb(255, 255, 255);
+    color: rgba(149, 147, 230, 1);
+    border-radius: 40px;
+    padding: 20px 80px;
+}
+
+.fa-circle {
+    font-size: 0.3rem;
+    vertical-align: middle;
+}
