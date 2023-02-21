@@ -1,15 +1,23 @@
 /* PHONE */
 @media screen and (max-width: 767px) {
+
     .box-main1{
         margin: 0 auto;
         width: 90%;
-        border: 1px solid red;
         margin-top: 40px;
+    }
+
+    .box-main2{
+        margin: 0 auto;
+        width: 90%;
+        margin-top: 60px;
     }
 }
 
 /* TABLET */
 @media screen and (min-width: 768px) {
+
+    /* PART 1 */
     
     .box-main1 {
         height: 100%;
@@ -21,6 +29,7 @@
 
     .img-main1 {
         width: 50%;
+        margin-bottom: 0px;
     }
 
     .card-large {
@@ -31,10 +40,65 @@
     .card-small {
         width: 30%;
     }
+
+    /* PART 2 */
+
+    .box-main2{
+        margin: 0 auto;
+        width: 90%;
+        margin-top: 60px;
+    }
+
+    /* PART 3 */
+
+    .card-main3 {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .card-box3 {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .box.img3 {
+        width: 50%;
+    }
+
+    .box-test3 {
+        width: 50%;
+        display: inline-block;
+    }
+
+    /* PART 4 */
+
+    .card-main4 {
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .box-card4 {
+        width: calc(50% - 20px);     
+        margin: 20px 0;  
+    }
 }
+
 /* DESKTOP */
 
 @media screen and (min-width: 992px) {
+
+    /* PART 1 */
+
+    .box-main1 {
+        width: 100%;
+        margin: 0 auto;
+        align-items: center;
+    }
 
     .line-emote {
         display: none;
@@ -49,10 +113,14 @@
         justify-content: space-between;
     }
 
+    .card-small {
+        min-height: 100%;
+    }
+
     .img-main1 {
-        width: 80%;
-        margin-top: 20px;
-        margin-left: 50px;
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
 
     .card-right {
@@ -60,6 +128,55 @@
     }
 
     .card-left {
-        width: 50%;
+        width: 100%;
+    }
+    
+    /* PART 2 */
+
+    .box-main2{
+        margin: 0 auto;
+        width: 80%;
+        margin-top: 60px;
+    }
+    
+    .box-main2 {
+        display: flex;
+        gap: 50px;
+    }
+
+    .strategic {
+        width: 100%;
+        height: 100%;
+    }
+
+    .strategic2 {
+        width: 100%;
+        height: 60%;
+        margin-top: 20%;
+        margin-right: 10%;
+    }
+
+    .img-main2-1 {
+        width: 60%;
+    }
+
+    .title-strategic {
+        margin-top: 120px;
+    }
+
+    /* PART 4 */
+
+    .card-main4 {
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .box-card4 {
+        width: calc((100% / 3) - 20px);     
+        margin: 20px 0;  
     }
 }
