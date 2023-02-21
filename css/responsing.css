@@ -86,6 +86,28 @@
         width: calc(50% - 20px);     
         margin: 20px 0;  
     }
+
+    /* PART 5 */
+
+    .box-test-main5 {
+        width: 90%;
+        display: flex;
+        padding: 0 20px;
+        margin: 0 auto;
+    }
+    
+    .box-img5 {
+        margin: 40px 0 20px 0;
+    }
+    
+    .col-main5 {
+        width: 100%;
+        padding-right: 100px;
+    }
+
+    .col-img5 {
+        width: 200px ;
+    }
 }
 
 /* DESKTOP */
