@@ -31,7 +31,7 @@
     }
 
     .img-main1 {
-        position: absolute;
+
         bottom: 0;
         width: 50%;
         height: 50%;
@@ -41,6 +41,9 @@
     .card-right {
         left: 0;
         bottom: 0;
+        padding: 0;
+        align-items: center;
+        align-self: flex-end;
     }
 
     .card-large {
@@ -159,15 +162,11 @@
     }
 
     .img-main1 {
-        margin-top: 0;
-        position: absolute;
-        width: 100%;
-        object-fit: contain;
-        bottom: 0;
+        width: 250px;
+        height: 60%;
     }
 
     .card-right {
-        position: relative;
         width: 40%;
         padding: 0;
     }

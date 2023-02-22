@@ -115,7 +115,9 @@ header {
 .button-appstore {
     color: white;
     background-color: rgb(28, 134, 255);
-    padding: 10px 50px;
+    padding: 20px 60px;
+    display: inline-block;
+    letter-spacing: 2px;
 }
 
 .card-small {
